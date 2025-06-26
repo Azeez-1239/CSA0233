@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int n=5,i;
+    float sum=0.0;
+    for(i=1;i<=n;i++)
+    {
+        sum+=(1.0/i);
+    }
+      printf("sum=%2f\n",sum);
+      return 0;
+}
+OUTPUT:
+sum=2.283334
+
+
+=== Code Execution Successful ===
